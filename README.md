@@ -1,1 +1,3 @@
 # LightNovel_Scapper
+
+Currently able to scrap https://novelfull.com/ Chapter Title and Chapter Link....
