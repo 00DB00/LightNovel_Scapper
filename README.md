@@ -1,0 +1,1 @@
+# LightNovel_Scapper
