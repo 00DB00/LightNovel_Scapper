@@ -11,3 +11,5 @@ NovelFullScrapper.py can scrapes the the site....(currently can save only in .te
 3) Run the script
 4) Provide the max no. of chapter when script runs, it will always start with first chapter.
 
+if stuck then user-agent might need to be changed..
+can also add time between each iteration...
