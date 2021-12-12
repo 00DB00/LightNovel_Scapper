@@ -10,7 +10,7 @@ while x < b :
     headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"}
     data = requests.get(url, headers = headers)
     soup = BeautifulSoup(data.content, 'lxml')
-    report = open(f'D:\\PROJECTS\\PycharmProjects\\pythonProject\\tester\\Chapter_{x}.txt','w')
+    report = open(f'D:\\PROJECTS\\PycharmProjects\\pythonProject\\tester\\Chapter_{x}.txt','w',encoding='utf-8')
     title = soup.find('h3').text
     report.write(title + '\n')
     content = soup.find_all('div', id='chapter-content')
